@@ -1,7 +1,8 @@
 # Lesson 7 Do codecademy 'Getting Started'
 
 ## Fork this lesson
-1. 
+1. Select the fork button in the upper right of the page 
+2. Fork this lesson to your github home
 
 ## ssh into your edison board
 1. Go to https://developer.weaved.com/portal/members/home.php
