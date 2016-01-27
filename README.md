@@ -31,7 +31,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `touch <yourname>`
 3. Add this to your local github repository
    * `git add <yourname>`
-   * `git commit -a -m"done!"
+   * `git commit -a -m"done!"`
 4. Push these changes back to your fork
    * `git push origin master -f`	
 5. Go to the original lesson7 in your browser and create a pull request
