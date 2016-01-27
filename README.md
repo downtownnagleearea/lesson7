@@ -11,7 +11,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 2. Bring up a terminal window and type in the command above substituting LOGIN with your name
    * example `ssh -l freddie proxya.yoics.net -p 34141`
 
-## Lesson setup so you can let us know when you're done
+## Clone this lesson to your edison board so you can later mark it as complete
 1. Clone the forked lesson to your edison board
    * `git clone https://github.com/<you>/lesson7.git`
 2. Change to this directory
@@ -23,6 +23,10 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 1. Browse to https://www.codecademy.com/learn/javascript
 2. Select 'Getting started with Javascript'
 3. Go through all 28 steps to finish this lesson
+4. At the end of the lesson take a screen shot similar to below
+
+![screen shot 2016-01-27 at 8 41 39 am](https://cloud.githubusercontent.com/assets/146453/12629492/04f9b44e-c4fd-11e5-95bd-4a7dbe1c0c8f.png)
+
 
 ## Update lesson7 to show you're done
 1. Go back to the edison board and cd to lesson7
