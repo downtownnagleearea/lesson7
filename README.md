@@ -1,7 +1,7 @@
 # Lesson 7 Do codecademy 'Getting Started'
 
 ## Fork this lesson
-1. Select the fork button in the upper right of the page 
+1. Select the fork button in the upper right of the page ![screen shot 2016-01-27 at 1 13 09 pm](https://cloud.githubusercontent.com/assets/146453/12629289/149c3ec2-c4fc-11e5-9446-10f3021af8a7.png)
 2. Fork this lesson to your github home
 
 ## ssh into your edison board to you can start this lesson
