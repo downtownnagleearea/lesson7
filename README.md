@@ -44,10 +44,12 @@ Checking connectivity... done.
 ## Update lesson7 to show you're done
 1. Go back to the edison board and cd to lesson7
    * `cd lesson7`
-2. Create a file called with your github name as the filename
+2. Create a file that you'll use to indicate you're done
    * `touch <yourname>`
+   * example: `touch kam`
 3. Add this to your local github repository
    * `git add <yourname>`
+   * example `git add kam`
 4. Tell git what your email is
    * `git config --global user.email "your email"`
    * example `git config --global user.email "kamkasravi@yahoo.com"`
