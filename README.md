@@ -17,7 +17,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 1. Clone the forked lesson to your edison board
    * `git clone https://github.com/<your github name>/lesson7.git`
    * example: `git clone https://github.com/kkasravi/lesson7.git`
-2. You should see something like the following
+2. You should see something like the following 
 ```
 git clone https://github.com/kkasravi/lesson7.git
 Cloning into 'lesson7'...
