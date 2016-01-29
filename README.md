@@ -15,7 +15,8 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 
 ## Clone this lesson to your edison board so you can later mark it as complete
 1. Clone the forked lesson to your edison board
-   * `git clone https://github.com/<you>/lesson7.git`
+   * `git clone https://github.com/<your github name>/lesson7.git`
+   * example: `git clone https://github.com/kkasravi/lesson7.git`
 2. Change to this directory
    * `cd lesson7`
 3. Add the original lesson7 as the upstream repo
