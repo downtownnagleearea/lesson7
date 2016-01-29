@@ -15,10 +15,21 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 
 ## Clone this lesson to your edison board so you can later mark it as complete
 1. Clone the forked lesson to your edison board
-   * `git clone https://github.com/<you>/lesson7.git`
-2. Change to this directory
+   * `git clone https://github.com/<your github name>/lesson7.git`
+   * example: `git clone https://github.com/kkasravi/lesson7.git`
+2. You should see something like the following 
+```
+git clone https://github.com/kkasravi/lesson7.git
+Cloning into 'lesson7'...
+remote: Counting objects: 30, done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 30 (delta 8), reused 30 (delta 8), pack-reused 0
+Unpacking objects: 100% (30/30), done.
+Checking connectivity... done.
+```
+3. Change to this directory
    * `cd lesson7`
-3. Add the original lesson7 as the upstream repo
+4. Add the original lesson7 as the upstream repo
    * `git remote add upstream https://github.com/downtownnagleearea/lesson7.git`
 
 ## Start Codecademy
@@ -34,16 +45,25 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 ## Update lesson7 to show you're done
 1. Go back to the edison board and cd to lesson7
    * `cd lesson7`
-2. Create a file called with your github name as the filename
+2. Create a file that you'll use to indicate you're done
    * `touch <yourname>`
+   * example: `touch kam`
 3. Add this to your local github repository
    * `git add <yourname>`
+   * example `git add kam`
+4. Tell git what your email is
+   * `git config --global user.email "your email"`
+   * example `git config --global user.email "kamkasravi@yahoo.com"`
+5. Tell git what your name is
+   * `git config --global user.name "your github name"`
+   * example `git config --global user.name "kkasravi"`
+6. Commit your changes to github
    * `git commit -a -m "done!"`
-4. Push these changes back to your fork
+7. Push these changes back to your fork
    * `git push origin master -f`	
-5. Go to the original lesson7 in your browser and create a pull request
+8. Go to the original lesson7 in your browser and create a pull request
    * `https://github.com/downtownnagleearea/lesson7`
-6. Click on the 'New Pull Request' button at the top of the page. The button looks like the following
+9. Click on the 'New Pull Request' button at the top of the page. The button looks like the following
 
 ![screen shot 2016-01-29 at 12 31 47 pm](https://cloud.githubusercontent.com/assets/146453/12687412/aaf23b2c-c684-11e5-9ad8-daee9800d2a8.png)
  
