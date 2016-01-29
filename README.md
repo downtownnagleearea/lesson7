@@ -17,9 +17,19 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 1. Clone the forked lesson to your edison board
    * `git clone https://github.com/<your github name>/lesson7.git`
    * example: `git clone https://github.com/kkasravi/lesson7.git`
-2. Change to this directory
+2. You should see something like the following
+```
+git clone https://github.com/kkasravi/lesson7.git
+Cloning into 'lesson7'...
+remote: Counting objects: 30, done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 30 (delta 8), reused 30 (delta 8), pack-reused 0
+Unpacking objects: 100% (30/30), done.
+Checking connectivity... done.
+```
+3. Change to this directory
    * `cd lesson7`
-3. Add the original lesson7 as the upstream repo
+4. Add the original lesson7 as the upstream repo
    * `git remote add upstream https://github.com/downtownnagleearea/lesson7.git`
 
 ## Start Codecademy
