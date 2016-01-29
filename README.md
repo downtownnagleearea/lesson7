@@ -28,6 +28,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 4. At the end of the lesson take a screen shot similar to below
 
 ![screen shot 2016-01-27 at 8 41 39 am](https://cloud.githubusercontent.com/assets/146453/12629492/04f9b44e-c4fd-11e5-95bd-4a7dbe1c0c8f.png)
+
 5. Send me (kam) this file using email
 
 ## Update lesson7 to show you're done
