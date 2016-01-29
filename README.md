@@ -42,6 +42,9 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `git push origin master -f`	
 5. Go to the original lesson7 in your browser and create a pull request
    * `https://github.com/downtownnagleearea/lesson7`
+6. Click on the 'New Pull Request' button at the top of the page. The button looks like the following
+
+![screen shot 2016-01-29 at 12 31 47 pm](https://cloud.githubusercontent.com/assets/146453/12687412/aaf23b2c-c684-11e5-9ad8-daee9800d2a8.png)
  
 
 
